@@ -7,3 +7,6 @@ body {
     width :1000px;
     margin: auto;
 }
+label {
+    display: block;
+}
