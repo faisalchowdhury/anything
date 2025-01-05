@@ -19,3 +19,42 @@ td,th {
     border :1px solid black;
     padding: 10px;
 }
+
+
+/*Nav work*/
+header {
+    margin-top: 50px;
+}
+nav > ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 10px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav ul li:hover  {
+    background:gray;
+    color: white;
+    
+    
+}
+
+nav .dropdown {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+}
+
+nav 
+
+li:hover .dropdown {
+    display: block;
+}
